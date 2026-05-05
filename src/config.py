@@ -1,17 +1,18 @@
 import os
 from core import log
 from dotenv import dotenv_values
+from core import messages as m
 
 ENV_FILE = ".env"
 DEFAULT_CONFIG = {
-    "VERBOSE": "False",
-    "APP_RUNNING": "True",
-    "PORT": "48001",
-    "AIM_IP": "0.0.0.0",
-    "AIM_PORT": "48000",
-    "DEFAUT_TIMEOUT": "5",
-    "HELLO_TIMEOUT": "5",
-    "BOT_INTERVAL": "3"
+    m.VERBOSE: "False",
+    m.APP_RUNNING: "True",
+    m.PORT: "48001",
+    m.IPIA: "0.0.0.0",
+    m.PORTIA: "48000",
+    m.DEFAUT_TIMEOUT: "5",
+    m.HELLO_TIMEOUT: "5",
+    m.BOT_INTERVAL: "3"
 }
 
 if not os.path.exists(ENV_FILE):

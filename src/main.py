@@ -3,8 +3,8 @@ import uvicorn
 
 from fastapi import FastAPI, HTTPException
 
-import route_manager
-import data_manager
+import api.route_manager as route_manager
+import services.data_manager as data_manager
 from services import auth_token
 from config import settings
 
