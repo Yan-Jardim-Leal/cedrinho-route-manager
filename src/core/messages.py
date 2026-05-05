@@ -1,0 +1,7 @@
+VERBOSE     = "verbose"
+PORT        = "port"
+IPIA        = "ipia"
+PORTIA      = "portia"
+RUNNING     = "running"
+TOKEN       = "token"
+NEW         = "new"
