@@ -119,7 +119,7 @@ def generate_dashboard_html(all_timelines, distributions, metrics):
         </style>
     </head>
     <body>
-        <h1>🧠 Teste de Eficiência da IA (Reinforcement Learning)</h1>
+        <h1>Teste de Eficiência da IA</h1>
         
         <div class="header-controls">
             <select id="daySelector" onchange="renderCharts()">
